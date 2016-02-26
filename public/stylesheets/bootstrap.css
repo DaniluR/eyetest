@@ -2541,15 +2541,16 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
+  width:35%;
+  margin-top:-90%;
+  margin-right:5%;
+  float:right;
   height: 43px;
-  padding: 10px 15px;
   font-size: 15px;
   line-height: 1.42857143;
   color: #2c3e50;
   background-color: #ffffff;
   background-image: none;
-  border: 1px solid #dce4ec;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -2568,7 +2569,7 @@ output {
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #acb6c0;
+  color: #acb6c0
 }
 .form-control::-webkit-input-placeholder {
   color: #acb6c0;
@@ -3042,7 +3043,7 @@ fieldset[disabled] .btn {
   background-color: #95a5a6;
   border-color: #95a5a6;
 }
-.btn-default:hover,
+.btn-default:focus,
 .btn-default:focus,
 .btn-default.focus,
 .btn-default:active,
@@ -4265,9 +4266,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-form {
+  display: block;
+  width:35%;
+  margin-top:-80%;
+  margin-right:5%;
+  float:right;
   margin-left: -15px;
-  margin-right: -15px;
-  padding: 10px 15px;
+  
+  padding: 100px 15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -4283,8 +4289,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-form .form-control {
     display: inline-block;
+     display: block;
+   width:35%;
+  margin-top:-80%;
+  margin-right:5%;
+  float:right;
+  margin-left: -15px;
     width: auto;
     vertical-align: middle;
+    margin-left: 200px;
   }
   .navbar-form .form-control-static {
     display: inline-block;
@@ -6826,4 +6839,10 @@ a.list-group-item-danger.active:focus {
 }
 .popover {
   color: #2c3e50;
+}
+
+
+input{
+    position: static;
+    border: 3px solid #73AD21;
 }

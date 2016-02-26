@@ -1,5 +1,5 @@
-require_relative 'config/environment'
-require_relative 'models/textanalyzer.rb'
+require_relative 'config/environment.rb'
+
 
 class App < Sinatra::Base
 
